@@ -5,7 +5,7 @@ Clone or fork to use like a template for creating yours.
 
 ## Tools
 
-### Commits ad realease
+### Commits ad release
 
 - Using [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
 
