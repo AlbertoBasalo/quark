@@ -15,8 +15,10 @@ Clone or fork to use like a template for creating yours.
 Scripts to get, update or delete labels on GitHub. Intended to be executed directly from de browser console.
 
 - Navigate to https://github.com/USER/REPOSITORY/labels
-- Execute `delete-labels` and `update-labels`
 - Feel free to use `get-labels` from any other project prior to update.
+- Otherwise you will get [this default labels](https://github.com/AtomicBuilders/quark/labels)
+- Execute `delete-labels` and `update-labels`
+
 
 ### Commits ad release
 
