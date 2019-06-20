@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* **github:** scripts to manage issue labels ([816a937](https://github.com/AtomicBuilders/quark/commit/816a937))
+* **GitHub:** scripts to manage issue labels ([816a937](https://github.com/AtomicBuilders/quark/commit/816a937))
 
 
 
