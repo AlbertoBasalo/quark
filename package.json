@@ -1,0 +1,22 @@
+{
+  "name": "quark",
+  "version": "1.0.0",
+  "description": "Fundamental project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomicBuilders/quark.git"
+  },
+  "author": "Alberto Basalo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtomicBuilders/quark/issues"
+  },
+  "homepage": "https://github.com/AtomicBuilders/quark#readme",
+  "devDependencies": {
+    "standard-version": "^6.0.1"
+  }
+}
