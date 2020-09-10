@@ -17,13 +17,15 @@
     "url": "https://github.com/AtomicBuilders/quark/issues"
   },
   "scripts": {
-    "release": "standard-version"
+    "deploy": "standard-version && git push --follow-tags origin master",
+    "updates": "ncu -u"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
+    "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.3",
-    "prettier": "^2.0.5",
-    "standard-version": "^8.0.0"
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1",
+    "standard-version": "^9.0.0",
+    "npm-check-updates": "^8.1.1"
   }
 }
