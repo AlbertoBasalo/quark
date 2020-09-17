@@ -17,9 +17,10 @@
     "url": "https://github.com/AtomicBuilders/quark/issues"
   },
   "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\"",
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin master",
-    "updates": "ncu -u"
+    "updates": "ncu -u",
   },
   "devDependencies": {
     "eslint": "^7.9.0",
