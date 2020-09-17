@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/AtomicBuilders/quark/compare/v1.1.3...v1.1.4) (2020-09-17)
+
+
+### Bug Fixes
+
+* script final coma ([d8685a5](https://github.com/AtomicBuilders/quark/commit/d8685a57c3e2f255b2eb6e2c638f1ce0b5bf9c15))
+
 ### [1.1.3](https://github.com/AtomicBuilders/quark/compare/v1.1.2...v1.1.3) (2020-09-17)
 
 ### [1.1.2](https://github.com/AtomicBuilders/quark/compare/v1.1.1...v1.1.2) (2020-09-10)
