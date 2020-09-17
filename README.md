@@ -30,10 +30,6 @@ Clone or fork to use like a template for creating yours.
 - Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - configure
 
-### Debug
-
-[How To Debug JavaScript with Google Chrome DevTools and Visual Studio Code](https://www.digitalocean.com/community/tutorials/how-to-debug-javascript-with-google-chrome-devtools-and-visual-studio-code)
-
 ### Atajos
 
 TOP 10
@@ -66,8 +62,9 @@ TOP 10
 
 ### Scripts
 
-```bash
+```json
   "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\"",
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
