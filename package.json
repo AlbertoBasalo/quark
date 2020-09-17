@@ -17,7 +17,8 @@
     "url": "https://github.com/AtomicBuilders/quark/issues"
   },
   "scripts": {
-    "deploy": "standard-version && git push --follow-tags origin master",
+    "prerelease": "standard-version ",
+    "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
   },
   "devDependencies": {
