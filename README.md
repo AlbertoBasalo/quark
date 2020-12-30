@@ -30,35 +30,43 @@ Clone or fork to use like a template for creating yours.
 - Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - configure
 
-### Atajos
+### VS Code Shortcuts
 
 TOP 10
 
-F1 : paleta de comandos
-CTRL+P : lista de ficheros
-CTRL+T : buscar una clase, función o variable em código
-CTRL+K CTRL+Z : comentar código
-CTRL+K CTRL+U : des comentar código
-F12 : ir a la definición
-CTRL+Ñ : mostrar ocultar terminal
-CTRL+B : mostrar ocultar barra lateral
-CTRL+K S : guardar todos los ficheros con cambios
-ALT+ArribaAbajo : mover selección arriba o abajo
+- `F1` : paleta de comandos
+- `CTRL+P` : lista de ficheros
+- `CTRL+T` : buscar una clase, función o variable em código
+- `CTRL+K CTRL+Z` : comentar código
+- `CTRL+K CTRL+U` : des comentar código
+- `F12` : ir a la definición
+- `CTRL+Ñ` : mostrar ocultar terminal
+- `CTRL+B`: mostrar ocultar barra lateral
+- `CTRL+K S` : guardar todos los ficheros con cambios
+- `ALT+Arriba|Abajo` : mover selección arriba o abajo
 
-### Extensiones
+### VS Code Extensions
 
-TOP 10
+TOP 20
 
-[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-[Prettier](https://github.com/prettier/prettier-vscode)
-[EsLint ](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-[TsLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
-[Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
-[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-[Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
-[Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials)
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+- [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- [html tag wrapper](https://marketplace.visualstudio.com/items?itemName=hwencc.html-tag-wrapper)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
+- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+- [Prettier](https://github.com/prettier/prettier-vscode)
+- [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 ### Scripts
 
