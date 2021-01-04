@@ -1,49 +1,47 @@
 # quark
 Fundamental project template
 
-Clone or fork to use like a template for creating yours.
+> Clone or fork to use like a template for creating your next js/ts project.
 
 ## Tools
 
 ### GitHub Issues
 
-- Using GitHub issues for tracking _User Stories and Epics_.
-- Each issue may be labeled with an Epic, a [MoSCoW priority](https://en.wikipedia.org/wiki/MoSCoW_method) and a basic category.
+Use GitHub issues for tracking _User Stories_ and _developer tasks_.
+- Each issue may be labeled with
+  - categories: feature, bug, test, refactor, dependencies, chore
+  - priorities: must, should, could, wont [MoSCoW priority](https://en.wikipedia.org/wiki/MoSCoW_method)
+  - milestones: may be epics or releases
+  - project: a Kanban dashboard to track issue workflow
 
 
 ### Commits and release
 
-- Using [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Use [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### Code style with Prettier
 
-- install local dev dependency
+- Installed and configured prettier
 
 - Recommended [prettier extension](https://github.com/prettier/prettier-vscode)
 
-- configure
 
 ### Code Linting with esLint
 
-- install local dev dependency
-- install local dev dependency for interop with prettier
+- Installed and configured eslint to work with prettier
 - Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- configure
 
-### VS Code Shortcuts
 
-TOP 10
+### Scripts
 
-- `F1` : paleta de comandos
-- `CTRL+P` : lista de ficheros
-- `CTRL+T` : buscar una clase, función o variable em código
-- `CTRL+K CTRL+Z` : comentar código
-- `CTRL+K CTRL+U` : des comentar código
-- `F12` : ir a la definición
-- `CTRL+Ñ` : mostrar ocultar terminal
-- `CTRL+B`: mostrar ocultar barra lateral
-- `CTRL+K S` : guardar todos los ficheros con cambios
-- `ALT+Arriba|Abajo` : mover selección arriba o abajo
+```json
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\"",
+    "prerelease": "standard-version ",
+    "release": "git push --follow-tags origin master",
+    "updates": "ncu -u"
+  }
+```
 
 ### VS Code Extensions
 
@@ -68,14 +66,23 @@ TOP 20
 - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-### Scripts
 
-```json
-  "scripts": {
-    "format": "prettier --write \"./**/*.{js,json}\"",
-    "prerelease": "standard-version ",
-    "release": "git push --follow-tags origin master",
-    "updates": "ncu -u"
-  }
-```
+### Extra
+
+#### VS Code Shortcuts
+
+TOP 10
+
+- `F1` :command list
+- `CTRL+P` : file
+- `CTRL+T` : search code
+- `CTRL+K CTRL+Z` : code comment
+- `CTRL+K CTRL+U` : uncomment code
+- `F12` : go to definition
+- `CTRL+Ñ` : show hide terminal
+- `CTRL+B`: show hide nav bar
+- `CTRL+K S` : save al files
+- `ALT+up|dawn` : move line
+
+
 
