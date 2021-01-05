@@ -74,7 +74,7 @@ Recommendations
 
 #### Settings
 
-> See User Settings file `.vscode\user-settings.json`
+> See User Settings file `.vscode\user-settings.json` as an inspiration for yours
 
 #### VS Code Shortcuts
 
