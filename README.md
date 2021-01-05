@@ -3,17 +3,21 @@ Fundamental project template
 
 > Clone, fork or use as a template repository for creating your next js/ts project.
 
-```bash
+```terminal
+git clone https://github.com/AtomicBuilders/quark your-project
+cd your-project
 npm install
-npm start
 npm test
+npm start
 ```
 
 ## 🎯 Motivation
 
-Avoid start from an empty repository
-Have a template to create JavaScript repositories with a project already configurated.
-A boilerplate ready to apply clean code techniques and testing.
+Avoid start from an empty repository.
+
+Have a template to create _JavaScript_ repositories with a project already configurated.
+
+A **boilerplate** ready to apply clean code techniques and testing.
 
 
 ## 🛠 Tools
@@ -49,10 +53,11 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 ### 🧪 Code tested with Jest
 
-- Installed and configured jest to run specs
-- Configured to conform with eslint
+- Installed and configured **jest** to run specs
+- Configured to conform with **eslint**
 - Transforms `esm` modules
-> Use this snippets as an inspiration `.vscode\js-snippets.json`
+
+> Use this snippets  `.vscode\js-snippets.json` as an inspiration to create yours
 
 
 ### 🤖 Scripts
@@ -95,11 +100,11 @@ Recommendations
 
 ### 👽 Extra
 
-#### Settings
+#### 🔧 Settings
 
-> See User and WorkSpace configurations at `settings` folder as an inspiration for yours
+> See User and WorkSpace configurations at `.vscode` folder as an inspiration for yours
 
-#### VS Code Shortcuts
+#### ⌨ VS Code Shortcuts
 
 TOP 10
 
@@ -113,6 +118,10 @@ TOP 10
 - `CTRL+B`: show hide navigation bar
 - `CTRL+K S` : save al files
 - `ALT+up|dawn` : move line
+
+## 👨 Created by Alberto Basalo
+
+[@albertobasalo](https://twitter.com/albertobasalo)
 
 
 
