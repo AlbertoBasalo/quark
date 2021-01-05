@@ -1,18 +1,19 @@
 # quark
 Fundamental project template
 
-> Clone or fork to use like a template for creating your next js/ts project.
+> Clone, fork or use as a template repository for creating your next js/ts project.
 
 ## Tools
 
 ### GitHub Issues
 
 Use GitHub issues for tracking _User Stories_ and _developer tasks_.
+
 - Each issue may be labeled with
   - categories: feature, bug, test, refactor, dependencies, chore
   - priorities: must, should, could, wont [MoSCoW priority](https://en.wikipedia.org/wiki/MoSCoW_method)
   - milestones: may be epics or releases
-  - project: a Kanban dashboard to track issue workflow
+  - project: a Kanban automated dashboard to track issue workflow
 
 > [GitHub Projects and Tools](https://www.notion.so/albr/GitHub-Projects-and-Tools-59f285b78acf4ff9b84076c526bafc03)
 
@@ -24,13 +25,14 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 - Installed and configured prettier
 
-- Recommended [prettier extension](https://github.com/prettier/prettier-vscode)
+> Recommended [prettier extension](https://github.com/prettier/prettier-vscode)
 
 
 ### Code Linting with esLint
 
 - Installed and configured eslint to work with prettier
-- Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+> Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 
 ### Scripts
@@ -46,7 +48,7 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 ### VS Code Extensions
 
-TOP 20
+Recommendations
 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
@@ -70,6 +72,10 @@ TOP 20
 
 ### Extra
 
+#### Settings
+
+> See User Settings file `.vscode\user-settings.json`
+
 #### VS Code Shortcuts
 
 TOP 10
@@ -81,7 +87,7 @@ TOP 10
 - `CTRL+K CTRL+U` : uncomment code
 - `F12` : go to definition
 - `CTRL+Ñ` : show hide terminal
-- `CTRL+B`: show hide nav bar
+- `CTRL+B`: show hide navigation bar
 - `CTRL+K S` : save al files
 - `ALT+up|dawn` : move line
 

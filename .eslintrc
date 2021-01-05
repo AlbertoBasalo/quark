@@ -23,8 +23,12 @@
     "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 1 }],
     "no-nested-ternary": "warn",
     "no-unused-vars": 0,
-    "@typescript-eslint/no-use-before-define": "off",
-    "@typescript-eslint/no-explicit-any": "off"
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   },
   "parserOptions": {
     "ecmaVersion": 2021,

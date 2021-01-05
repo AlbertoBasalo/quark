@@ -4,7 +4,7 @@
   "description": "Fundamental project template",
   "author": {
     "name": "Alberto Basalo",
-    "email": "albertobasalo@agorabinaria.com",
+    "email": "albertobasalo@hotmail.com",
     "url": "https://twitter.com/albertobasalo"
   },
   "homepage": "https://github.com/AtomicBuilders/quark#readme",
@@ -17,7 +17,10 @@
     "url": "https://github.com/AtomicBuilders/quark/issues"
   },
   "scripts": {
+    "start": "node src/main",
     "format": "prettier --write \"./**/*.{js,json}\"",
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix",
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
