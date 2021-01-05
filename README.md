@@ -14,6 +14,7 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
   - milestones: may be epics or releases
   - project: a Kanban dashboard to track issue workflow
 
+> [GitHub Projects and Tools](https://www.notion.so/albr/GitHub-Projects-and-Tools-59f285b78acf4ff9b84076c526bafc03)
 
 ### Commits and release
 
