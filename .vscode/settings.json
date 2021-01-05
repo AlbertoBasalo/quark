@@ -62,7 +62,6 @@
     "**/.git": true,
     "**/node_modules": true
   },
-  "files.hotExit": "onExit",
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "git.confirmSync": false,
