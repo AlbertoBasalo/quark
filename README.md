@@ -34,11 +34,20 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 > Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
+### Code tested with Jest
+
+- Installed and configured jest to run specs
+- Configured to conform with eslint
+- Transforms `esm` modules
+> Use this snippets as an inspiration `.vscode\js-snippets.json`
+
 
 ### Scripts
 
 ```json
   "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
     "format": "prettier --write \"./**/*.{js,json}\"",
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin master",
