@@ -3,9 +3,22 @@ Fundamental project template
 
 > Clone, fork or use as a template repository for creating your next js/ts project.
 
-## Tools
+```bash
+npm install
+npm start
+npm test
+```
 
-### GitHub Issues
+## 🎯 Motivation
+
+Avoid start from an empty repository
+Have a template to create JavaScript repositories with a project already configurated.
+A boilerplate ready to apply clean code techniques and testing.
+
+
+## 🛠 Tools
+
+### 📋  GitHub Issues
 
 Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
@@ -17,24 +30,24 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 > [GitHub Projects and Tools](https://www.notion.so/albr/GitHub-Projects-and-Tools-59f285b78acf4ff9b84076c526bafc03)
 
-### Commits and release
+### 📦 Commits and release
 
 - Use [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-### Code style with Prettier
+### 💅 Code style with Prettier
 
 - Installed and configured prettier
 
 > Recommended [prettier extension](https://github.com/prettier/prettier-vscode)
 
 
-### Code Linting with esLint
+### 📐 Code linting with esLint
 
 - Installed and configured eslint to work with prettier
 
 > Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### Code tested with Jest
+### 🧪 Code tested with Jest
 
 - Installed and configured jest to run specs
 - Configured to conform with eslint
@@ -42,10 +55,11 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 > Use this snippets as an inspiration `.vscode\js-snippets.json`
 
 
-### Scripts
+### 🤖 Scripts
 
 ```json
   "scripts": {
+    "start": "node src/main",
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "format": "prettier --write \"./**/*.{js,json}\"",
@@ -55,7 +69,7 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
   }
 ```
 
-### VS Code Extensions
+### 🧩 VS Code Extensions
 
 Recommendations
 
@@ -79,11 +93,11 @@ Recommendations
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 
-### Extra
+### 👽 Extra
 
 #### Settings
 
-> See User Settings file `.vscode\user-settings.json` as an inspiration for yours
+> See User and WorkSpace configurations at `settings` folder as an inspiration for yours
 
 #### VS Code Shortcuts
 

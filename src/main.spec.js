@@ -1,6 +1,6 @@
 import { sayHello, sum } from './main';
 
-test('say hello function exists', () => {
+test('sayHello function exists', () => {
   expect(sayHello).toBeDefined();
 });
 
