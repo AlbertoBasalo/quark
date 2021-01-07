@@ -1,7 +1,11 @@
 # quark
 Fundamental project template
 
-> Clone, fork or use as a template repository for creating your next js/ts project.
+> Clone, fork or use as a template repository for creating your next JavaScript project.
+
+### For a **TypeScript** version go to:
+[🔱 TypeScript branch](https://github.com/AtomicBuilders/quark/tree/TypeScript-version)
+
 
 ```terminal
 git clone https://github.com/AtomicBuilders/quark your-project
