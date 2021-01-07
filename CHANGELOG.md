@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/AtomicBuilders/quark/compare/v1.3.1...v1.4.0) (2021-01-07)
+
+
+### Features
+
+* TypeScript version ([6fa9985](https://github.com/AtomicBuilders/quark/commit/6fa998508f15969f3773436abfa5b3d1c203719c)), closes [#18](https://github.com/AtomicBuilders/quark/issues/18)
+
 ### [1.3.1](https://github.com/AtomicBuilders/quark/compare/v1.3.0...v1.3.1) (2021-01-05)
 
 
