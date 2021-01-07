@@ -1,4 +1,6 @@
 # Ignore artifacts:
 /dist
+/bin
+/coverage
 node_modules
-package-lock.lock
+package-lock.json
