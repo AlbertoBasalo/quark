@@ -1,6 +1,30 @@
-# Ignore artifacts:
-/dist
+# compiled output
 /bin
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# misc
+/.sass-cache
+/connect.lock
 /coverage
-node_modules
-package-lock.json
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+/.scannerwork
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+/.scannerwork
