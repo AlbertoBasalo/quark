@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/AtomicBuilders/quark/compare/v1.4.0...v1.5.0) (2021-01-08)
+
+
+### Features
+
+* TypeScript version ([41a316f](https://github.com/AtomicBuilders/quark/commit/41a316f011fe96173e15bd1ada3f42bf91ab6b49)), closes [#18](https://github.com/AtomicBuilders/quark/issues/18)
+* workflows documentation Closes [#19](https://github.com/AtomicBuilders/quark/issues/19) ([1565fc7](https://github.com/AtomicBuilders/quark/commit/1565fc7a4ab78415433cdaff5ca96d9d4d02dd4b))
+
 ## [1.4.0](https://github.com/AtomicBuilders/quark/compare/v1.3.1...v1.4.0) (2021-01-07)
 
 
