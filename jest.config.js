@@ -1,10 +1,13 @@
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 module.exports = {
-  moduleFileExtensions: ['js', 'mjs'],
-  transform: {
-    '^.+\\.js$': 'jest-esm-transformer',
+  preset: 'ts-jest',
+  moduleNameMapper: {
+    '@exmpl/(.*)': '<rootDir>/src/$1',
   },
+  modulePathIgnorePatterns: ['<rootDir>/dist/'],
+  verbose: false,
+  collectCoverage: false,
   coverageThreshold: {
     global: {
       branches: 80,
@@ -13,5 +16,4 @@ module.exports = {
       statements: -10,
     },
   },
-  verbose: true,
 };

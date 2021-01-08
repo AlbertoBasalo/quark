@@ -1,12 +1,15 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:jest/recommended",
-    "plugin:jest/style"
+    "plugin:jest/style",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
 
-  "plugins": ["prettier", "jest"],
+  "plugins": ["prettier", "jest", "@typescript-eslint"],
 
   "env": {
     "browser": true,
@@ -24,7 +27,12 @@
     "max-params": ["warn", 4],
     "no-magic-numbers": [
       "warn",
-      { "detectObjects": false, "enforceConst": true, "ignore": [0, 1], "ignoreArrayIndexes": true }
+      {
+        "detectObjects": false,
+        "enforceConst": true,
+        "ignore": [0, 1, 2],
+        "ignoreArrayIndexes": true
+      }
     ],
     "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 1 }],
     "no-nested-ternary": "warn",

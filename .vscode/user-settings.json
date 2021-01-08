@@ -29,15 +29,11 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.renderIndentGuides": true,
-  "editor.rulers": [
-    100
-  ],
+  "editor.rulers": [100],
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "emmet.excludeLanguages": [
-    "markdown"
-  ],
+  "emmet.excludeLanguages": ["markdown"],
   "emmet.triggerExpansionOnTab": true,
   "eslint.alwaysShowStatus": true,
   "files.defaultLanguage": "",
@@ -73,16 +69,8 @@
   "search.exclude": {
     "**/node_modules": true
   },
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext",
-    "html"
-  ],
-  "spellright.language": [
-    "es",
-    "en"
-  ],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "html"],
+  "spellright.language": ["es", "en"],
   "telemetry.enableTelemetry": false,
   "terminal.integrated.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",

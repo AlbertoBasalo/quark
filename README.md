@@ -1,25 +1,23 @@
 # quark
-Fundamental project template
+Fundamental **TypeScript** project template
 
-> Clone, fork or use as a template repository for creating your next JavaScript project.
-
-### For a **TypeScript** version go to:
-[🔱 TypeScript branch](https://github.com/AtomicBuilders/quark/tree/TypeScript-version)
-
+> Clone, fork or use as a template repository for creating your next **TypeScript** project.
 
 ```terminal
-git clone https://github.com/AtomicBuilders/quark your-project
+git clone https://github.com/AtomicBuilders/quark/tree/TypeScript-version your-project
 cd your-project
 npm install
 npm test
 npm start
+npm run dev
+npm run test:watch
 ```
 
 ## 🎯 Motivation
 
 Avoid start from an empty repository.
 
-Have a template to create _JavaScript_ repositories with a project already configurated.
+Have a template to create _TypeScript_ repositories with a project already configurated.
 
 A **boilerplate** ready to apply clean code techniques and testing.
 
@@ -59,7 +57,7 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 - Installed and configured **jest** to run specs
 - Configured to conform with **eslint**
-- Transforms `esm` modules
+- Uses `ts-jest` to work natively with **TypeScript**
 
 > Use this snippets  `.vscode\js-snippets.json` as an inspiration to create yours
 
@@ -68,10 +66,16 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 ```json
   "scripts": {
-    "start": "node src/main",
+    "start": "node ./dist/main.js",
+    "prestart": "npm run build",
+    "build": "tsc",
+    "dev": "ts-node ./src/main.ts",
     "test": "jest",
-    "test:watch": "npm test -- --watch",
-    "format": "prettier --write \"./**/*.{js,json}\"",
+    "test:watch": "jest --watch --verbose",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --write \"./**/*.{ts,json}\"",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
     "prerelease": "standard-version ",
     "release": "git push --follow-tags origin master",
     "updates": "ncu -u"
