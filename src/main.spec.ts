@@ -4,9 +4,9 @@ test('sayHello function exists', () => {
   expect(sayHello).toBeDefined();
 });
 
-describe('GIVEN the sum function', () => {
+describe('The sum function', () => {
   const sut = sum;
-  it('THEN should sums numbers', () => {
+  it('should sum numbers', () => {
     const actual = sut(1, 2);
     const expected = 3;
     expect(actual).toBe(expected);
