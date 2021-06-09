@@ -1,4 +1,5 @@
 # quark
+
 Fundamental **TypeScript** project template
 
 > Clone, fork or use as a template repository for creating your next **TypeScript** project.
@@ -8,8 +9,6 @@ git clone https://github.com/AtomicBuilders/quark/ your-project
 cd your-project
 npm install
 ```
-
-### There is a [branch with the JavaScript version](https://github.com/AtomicBuilders/quark/tree/JavaScript-version) of this project
 
 ## 🎯 Motivation
 
@@ -45,9 +44,9 @@ Run `npm run test` it will run all test once and stops. Default for CI/CD most c
 
 If you want also the coverage report then use `npm run test:coverage` .
 
-#### Publish
+#### Release
 
-If you want to publish your work as a package or simply want to keep track of your releases, then there is a script for you: `npm run release`. It will:
+If you want to tag your work as to keep track of your releases, then there is a script for you: `npm run release`. It will:
 
 - update the versión number
 - update the change log file.
@@ -65,13 +64,13 @@ Here you have a recap of the available scripts
 
 ```json
   "scripts": {
-    "start": "node ./dist/main.js",
-    "prestart": "npm run build",
-    "build": "tsc",
+    "start": "ts-node ./src/main.ts",
+    "build": "tsc -p tsconfig.json",
     "dev": "ts-node ./src/main.ts",
     "test": "jest",
     "test:watch": "jest --watch --verbose",
     "test:coverage": "jest --coverage",
+    "ts-node": "ts-node",
     "format": "prettier --write \"./**/*.{ts,json}\"",
     "lint": "eslint src --ext .ts",
     "lint:fix": "npm run lint -- --fix",
@@ -83,7 +82,7 @@ Here you have a recap of the available scripts
 
 ## 🛠 Tools
 
-### 📋  GitHub Issues
+### 📋 GitHub Issues
 
 Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
@@ -105,7 +104,6 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 > Recommended [prettier extension](https://github.com/prettier/prettier-vscode)
 
-
 ### 📐 Code linting with esLint
 
 - Installed and configured eslint to work with prettier
@@ -118,8 +116,7 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 - Configured to conform with **eslint**
 - Uses `ts-jest` to work natively with **TypeScript**
 
-> Use this snippets `.vscode\js-snippets.json` as an inspiration to create yours
-
+> Use this snippets `.vscode\ts-snippets.json` as an inspiration to create yours
 
 ### 🧩 VS Code Extensions
 
@@ -143,7 +140,6 @@ Recommendations
 - [Prettier](https://github.com/prettier/prettier-vscode)
 - [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
 
 ### 👽 Extra
 
@@ -172,6 +168,3 @@ TOP 10
 [@albertobasalo](https://twitter.com/albertobasalo)
 
 ### Remember There is a [branch with the JavaScript version](https://github.com/AtomicBuilders/quark/tree/JavaScript-version) of this project
-
-
-
