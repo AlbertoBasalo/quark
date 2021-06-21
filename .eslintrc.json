@@ -3,8 +3,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:prettier/recommended",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
+    "plugin:jest/all",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
@@ -20,10 +19,10 @@
   "globals": {},
   "rules": {
     "complexity": ["warn", { "max": 8 }],
-    "max-depth": ["warn", 2],
+    "max-depth": ["warn", 4],
     "max-lines": ["warn", 256],
-    "max-lines-per-function": ["warn", 32],
-    "max-nested-callbacks": ["warn", 2],
+    "max-lines-per-function": ["warn", 64],
+    "max-nested-callbacks": ["warn", 4],
     "max-params": ["warn", 4],
     "no-magic-numbers": [
       "warn",
@@ -36,18 +35,20 @@
     ],
     "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 1 }],
     "no-nested-ternary": "warn",
-    "no-unused-vars": 0,
+    "no-unused-vars": "warn",
     "prettier/prettier": [
-      "warn",
+      "error",
       {
         "endOfLine": "auto"
       }
     ],
+    "jest/no-hooks": "off",
+    "jest/prefer-expect-assertions": "off",
     "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
+    "jest/no-focused-tests": "warn",
+    "jest/no-identical-title": "warn",
     "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error"
+    "jest/valid-expect": "warn"
   },
   "parserOptions": {
     "ecmaVersion": 2021,
