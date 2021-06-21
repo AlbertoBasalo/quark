@@ -64,19 +64,19 @@ Here you have a recap of the available scripts
 
 ```json
   "scripts": {
-    "start": "ts-node ./src/main.ts",
+    "start": "node ./dist/main.js",
+    "test": "jest",
     "build": "tsc -p tsconfig.json",
     "dev": "ts-node ./src/main.ts",
-    "test": "jest",
-    "test:watch": "jest --watch --verbose",
+    "test:dev": "jest --watch",
     "test:coverage": "jest --coverage",
     "ts-node": "ts-node",
     "format": "prettier --write \"./**/*.{ts,json}\"",
     "lint": "eslint src --ext .ts",
     "lint:fix": "npm run lint -- --fix",
     "prerelease": "standard-version ",
-    "release": "git push --follow-tags origin master",
-    "updates": "ncu -u"
+    "release": "git push --follow-tags origin main",
+    "update": "ncu -u"
   }
 ```
 
@@ -85,14 +85,6 @@ Here you have a recap of the available scripts
 ### 📋 GitHub Issues
 
 Use GitHub issues for tracking _User Stories_ and _developer tasks_.
-
-- Each issue may be labeled with
-  - categories: feature, bug, test, refactor, dependencies, chore
-  - priorities: must, should, could, wont [MoSCoW priority](https://en.wikipedia.org/wiki/MoSCoW_method)
-  - milestones: may be epics or releases
-  - project: a Kanban automated dashboard to track issue workflow
-
-> More info in Spanish at [GitHub Projects and Tools](https://www.notion.so/albr/GitHub-Projects-and-Tools-59f285b78acf4ff9b84076c526bafc03)
 
 ### 📦 Commits and release
 
@@ -122,17 +114,13 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 Recommendations
 
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 - [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-- [html tag wrapper](https://marketplace.visualstudio.com/items?itemName=hwencc.html-tag-wrapper)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
-- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
@@ -167,4 +155,4 @@ TOP 10
 
 [@albertobasalo](https://twitter.com/albertobasalo)
 
-### Remember There is a [branch with the JavaScript version](https://github.com/AtomicBuilders/quark/tree/JavaScript-version) of this project
+### There is a [JavaScript version](https://github.com/AtomicBuilders/lepton) of this project
