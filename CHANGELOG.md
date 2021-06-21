@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/AtomicBuilders/quark/compare/v1.5.2...v1.6.0) (2021-06-21)
+
+
+### Features
+
+* config and scripts ([b242838](https://github.com/AtomicBuilders/quark/commit/b2428386a95f3ffb8d5ad5c9af6679035f66c8e4))
+
 ### [1.5.2](https://github.com/AtomicBuilders/quark/compare/v1.5.1...v1.5.2) (2021-06-09)
 
 
