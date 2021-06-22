@@ -18,11 +18,10 @@
   },
   "scripts": {
     "start": "node ./dist/main.js",
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "tsc -p tsconfig.json",
     "dev": "ts-node ./src/main.ts",
     "test:dev": "jest --watch",
-    "test:coverage": "jest --coverage",
     "ts-node": "ts-node",
     "format": "prettier --write \"./**/*.{ts,json}\"",
     "lint": "eslint src --ext .ts",
@@ -58,7 +57,7 @@
     "modulePathIgnorePatterns": [
       "<rootDir>/dist/"
     ],
-    "verbose": false,
+    "verbose": true,
     "collectCoverage": false,
     "coverageThreshold": {
       "global": {
