@@ -15,7 +15,7 @@
       "    const expected = null;",
       "    expect(actual).toBe(expected);",
       "  });",
-      "});",
+      "});"
     ],
     "description": "Scaffold It Should with Jest"
   },
@@ -35,7 +35,7 @@
       "    const expected = null;",
       "    expect(actual).toBe(expected);",
       "  });",
-      "});",
+      "});"
     ],
     "description": "Scaffold Given When Then with Jest"
   }

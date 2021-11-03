@@ -2,93 +2,54 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[markdown]": {
-    "editor.defaultFormatter": "vscode.markdown-language-features"
-  },
-  "editor.autoIndent": "full",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.addMissingImports": true,
-    "source.organizeImports": true,
-    "source.fixAll.eslint": true
-  },
-  "editor.codeLens": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.organizeImports",
+    "source.fixAll"
+  ],
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
+  "editor.fontFamily": " 'Fira Code', 'Cascadia Mono PL', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.highlightActiveIndentGuide": true,
-  "editor.letterSpacing": 1,
+  "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
-  "editor.renderIndentGuides": true,
-  "editor.rulers": [100],
-  "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "emmet.excludeLanguages": ["markdown"],
-  "emmet.triggerExpansionOnTab": true,
-  "eslint.alwaysShowStatus": true,
-  "files.defaultLanguage": "",
+  "explorer.compactFolders": false,
+  "files.eol": "\n",
   "files.exclude": {
     "**/.DS_Store": true,
-    "**/.git": true,
-    "**/node_modules": true
+    "**/.git": true
   },
-  "files.hotExit": "onExit",
   "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "html.autoClosingTags": true,
-  "html.format.contentUnformatted": null,
-  "html.format.indentHandlebars": true,
-  "html.format.indentInnerHtml": true,
-  "html.format.maxPreserveNewLines": 0,
-  "html.format.unformatted": "",
-  "html.format.wrapAttributes": "force-aligned",
-  "html.format.wrapLineLength": 100,
-  "javascript.preferences.importModuleSpecifier": "relative",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "material-icon-theme.activeIconPack": "angular",
-  "material-icon-theme.folders.associations": {
-    "app": "Global",
-    "core": "Public",
-    "environments": "Config",
-    "shared": "Tools",
-    "domain": "class",
-    "ui": "views"
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
   },
-  "search.exclude": {
-    "**/node_modules": true
-  },
-  "spellright.documentTypes": ["markdown", "latex", "plaintext", "html"],
-  "spellright.language": ["es", "en"],
-  "telemetry.enableTelemetry": false,
-  "terminal.integrated.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-  "window.zoomLevel": 0,
-  "workbench.colorCustomizations": {
-    "editorError.foreground": "#f73454",
-    "editorWarning.foreground": "#0c4047",
-    "editorInfo.foreground": "#1857a4"
-  },
-  "workbench.colorTheme": "Andromeda Italic Bordered",
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "explorer.compactFolders": false,
-  "editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
-  "workbench.iconTheme": "material-icon-theme",
-  "githubIssues.useBranchForIssues": "prompt",
-  "githubIssues.issueBranchTitle": "${issueNumber}-${sanitizedIssueTitle} ",
+  "githubIssues.ignoreMilestones": [],
+  "githubIssues.issueBranchTitle": "${issueNumber}-${sanitizedIssueTitle}",
+  "githubIssues.issueCompletionFormatScm": "chore: ${sanitizedIssueTitle} - #${issueNumber}",
   "githubIssues.queries": [
     {
       "label": "My Issues",
@@ -99,5 +60,72 @@
       "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
     }
   ],
-  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration"
+  "githubIssues.useBranchForIssues": "prompt",
+  "githubIssues.workingIssueFormatScm": "feat: ${sanitizedIssueTitle} - Closes #${issueNumber}",
+  "html.format.wrapAttributes": "force-aligned",
+  "material-icon-theme.files.associations": {},
+  "material-icon-theme.folders.associations": {
+    "domain": "class",
+    "login": "secure",
+    "transactions": "pipe",
+    "ui": "components",
+    "users": "secure"
+  },
+  "search.exclude": {
+    "node_modules/": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
+  },
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "html",
+    "typescript"
+  ],
+  "spellright.ignoreFiles": [
+    "**/.gitignore",
+    "**/.spellignore",
+    "/node_modules/",
+    "/dist/",
+    "/tmp/"
+  ],
+  "spellright.language": [
+    "en",
+    "es"
+  ],
+  "window.title": "${dirty}${activeEditorMedium}",
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#f85149",
+    "editorInfo.foreground": "#58a6ff",
+    "editorWarning.foreground": "#d29922",
+    "editorBracketHighlight.foreground1": "#a371f7",
+    "editorBracketHighlight.foreground2": "#58a6ff",
+    "editorBracketHighlight.foreground3": "#3fb950",
+    "editorBracketHighlight.foreground4": "#d29922",
+    "editorBracketHighlight.foreground5": "#db6d28",
+    "editorBracketHighlight.foreground6": "#f85149",
+    "scrollbarSlider.background": "#24292f",
+    "tab.activeBorder": "#58a6ff",
+    "tab.activeBorderTop": "#30363d",
+    "tab.activeBackground": "#30363d",
+    "terminal.tab.activeBorder": "#58a6ff"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "git.ignoreRebaseWarning": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "cSpell.userWords": [
+    "albertobasalo",
+    "Basalo",
+    "cloner",
+    "Intelli",
+    "Parens"
+  ]
 }

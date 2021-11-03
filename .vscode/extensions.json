@@ -4,6 +4,6 @@
     "dbaeumer.vscode-eslint",
     "pkief.material-icon-theme",
     "christian-kohler.path-intellisense",
-    "ban.spellright"
+    "streetsidesoftware.code-spell-checker"
   ]
 }
