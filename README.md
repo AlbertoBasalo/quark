@@ -14,7 +14,7 @@ npm install
 
 Avoid start from an empty repository.
 
-Have a template to create _TypeScript_ repositories with a project already configurated.
+Have a template to create _TypeScript_ repositories with a project already configured.
 
 A **boilerplate** ready to apply clean code techniques and testing.
 
@@ -48,7 +48,7 @@ If you want also the coverage report then use `npm run test:coverage` .
 
 If you want to tag your work as to keep track of your releases, then there is a script for you: `npm run release`. It will:
 
-- update the versión number
+- update the version number
 - update the change log file.
 - push and tag changes
 
