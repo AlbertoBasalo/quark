@@ -7,9 +7,11 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-
-  "plugins": ["prettier", "jest", "@typescript-eslint"],
-
+  "plugins": [
+    "prettier",
+    "jest",
+    "@typescript-eslint"
+  ],
   "env": {
     "browser": true,
     "es6": true,
@@ -18,22 +20,52 @@
   },
   "globals": {},
   "rules": {
-    "complexity": ["warn", { "max": 8 }],
-    "max-depth": ["warn", 4],
-    "max-lines": ["warn", 256],
-    "max-lines-per-function": ["warn", 64],
-    "max-nested-callbacks": ["warn", 4],
-    "max-params": ["warn", 4],
+    "complexity": [
+      "warn",
+      {
+        "max": 8
+      }
+    ],
+    "max-depth": [
+      "warn",
+      2
+    ],
+    "max-lines": [
+      "warn",
+      160
+    ],
+    "max-lines-per-function": [
+      "warn",
+      40
+    ],
+    "max-nested-callbacks": [
+      "warn",
+      4
+    ],
+    "max-params": [
+      "warn",
+      4
+    ],
     "no-magic-numbers": [
       "warn",
       {
         "detectObjects": false,
         "enforceConst": true,
-        "ignore": [0, 1, 2],
+        "ignore": [
+          0,
+          1,
+          2
+        ],
         "ignoreArrayIndexes": true
       }
     ],
-    "no-multiple-empty-lines": ["warn", { "max": 2, "maxEOF": 1 }],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
+    ],
     "no-nested-ternary": "warn",
     "no-unused-vars": "warn",
     "prettier/prettier": [
