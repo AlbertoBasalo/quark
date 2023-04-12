@@ -17,8 +17,8 @@
     "url": "https://github.com/AlbertoBasalo/quark/issues"
   },
   "scripts": {
-    "start": "node ./dist/main.js",
     "prestart": "npm run build",
+    "start": "node ./dist/main.js",
     "test": "jest --coverage",
     "build": "tsc -p tsconfig.json",
     "dev": "ts-node ./src/main.ts",

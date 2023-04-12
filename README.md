@@ -18,7 +18,7 @@ Have a template to create _TypeScript_ repositories with a project already confi
 
 A **boilerplate** ready to apply clean code techniques and testing.
 
-## ⚙ Workflows
+## 🔗 Workflows
 
 ### 👨‍💻 Dev Workflow
 
@@ -30,7 +30,7 @@ Run `npm run test:watch` it will run test after each change. Ideal for TDD or te
 
 #### Running
 
-To run your code without having to build it just execute `npm run dev`
+To run your code without having to build it, just execute `npm run dev`
 
 #### Updating
 
@@ -40,7 +40,7 @@ To keep your dependencies up to date use `npm run updates` and it will check for
 
 #### Testing
 
-Run `npm run test` it will run all test once and stops. Default for CI/CD most common environments.
+Run `npm test` it will run all test once and stops. Default for CI/CD most common environments.
 
 If you want also the coverage report then use `npm run test:coverage` .
 
@@ -64,12 +64,12 @@ Here you have a recap of the available scripts
 
 ```json
   "scripts": {
+    "prestart": "npm run build",
     "start": "node ./dist/main.js",
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "tsc -p tsconfig.json",
     "dev": "ts-node ./src/main.ts",
     "test:dev": "jest --watch",
-    "test:coverage": "jest --coverage",
     "ts-node": "ts-node",
     "format": "prettier --write \"./**/*.{ts,json}\"",
     "lint": "eslint src --ext .ts",
@@ -79,12 +79,6 @@ Here you have a recap of the available scripts
     "update": "ncu -u"
   }
 ```
-
-## 🛠 Tools
-
-### 📋 GitHub Issues
-
-Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 
 ### 📦 Commits and release
 
@@ -108,25 +102,27 @@ Use GitHub issues for tracking _User Stories_ and _developer tasks_.
 - Configured to conform with **eslint**
 - Uses `ts-jest` to work natively with **TypeScript**
 
-> Use this snippets `.vscode\ts-snippets.json` as an inspiration to create yours
+---
 
-## 🛠 VS Code
+## 🛠 (VS Code .dotfiles)[https://github.com/AlbertoBasalo/dotfiles]
 
-### 🧩 Extensions recommendations
+### ⚙️ Settings
 
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Prettier](https://github.com/prettier/prettier-vscode)
-- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [How to configure VSCode to code better TypeScript](https://albertobasalo.medium.com/how-to-configure-vscode-to-code-better-typescript-d6e000b2cb06?sk=4c0edee7dd123c0e0c7c6f7266c91e4d)
 
-### 👽 Extra
+- [My settings.json](https://github.com/AlbertoBasalo/dotfiles/blob/main/settings.json)
 
-#### 🔧 Settings and Snippets
+### 🧩 Extensions
 
-> See User and WorkSpace configurations at `.vscode` folder as an inspiration for yours
-> See also `.vscode\ts-snippets.json` to use in your TypeScript snippets for easy testing
+- [5 VSCode extensions to write better TypeScript](https://albertobasalo.medium.com/5-vscode-extensions-to-write-better-typescript-9804acbada9?sk=8907a533ca7e5b14aa2daa397bb667d1)
+
+- [Extensions I use](https://github.com/AlbertoBasalo/dotfiles/blob/main/extensions-i-use.md)
+
+### 👩🏼‍⚖️ EsLint rules
+
+- [Fine-tune ESLint rules to write better TypeScript](https://albertobasalo.medium.com/fine-tune-eslint-rules-to-code-better-typescript-e4cabbbe2fa1?sk=fe0c1c07936f2c4a503dbce0272da621)
+
+- [My eslint.json](https://github.com/AlbertoBasalo/dotfiles/blob/main/eslint.json)
 
 #### ⌨ VS Code Shortcuts
 
