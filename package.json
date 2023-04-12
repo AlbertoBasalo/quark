@@ -5,16 +5,16 @@
   "author": {
     "name": "Alberto Basalo",
     "email": "albertobasalo@hotmail.com",
-    "url": "https://twitter.com/albertobasalo"
+    "url": "https://albertobasalo.dev"
   },
-  "homepage": "https://github.com/AtomicBuilders/quark#readme",
+  "homepage": "https://github.com/AlbertoBasalo/quark#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/quark.git"
+    "url": "git+https://github.com/AlbertoBasalo/quark.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/quark/issues"
+    "url": "https://github.com/AlbertoBasalo/quark/issues"
   },
   "scripts": {
     "start": "node ./dist/main.js",
