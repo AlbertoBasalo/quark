@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/AlbertoBasalo/quark/compare/v1.6.9...v2.0.0) (2023-04-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* extract workflows to docs
+
+* extract workflows to docs ([42d8fa0](https://github.com/AlbertoBasalo/quark/commit/42d8fa00b2c928f7d19bd8a26d1854ceadfc23b7))
+
 ### [1.6.9](https://github.com/AlbertoBasalo/quark/compare/v1.6.8...v1.6.9) (2023-04-12)
 
 ### [1.6.8](https://github.com/AlbertoBasalo/quark/compare/v1.6.7...v1.6.8) (2023-04-12)
