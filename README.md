@@ -80,31 +80,7 @@ Here you have a recap of the available scripts
   }
 ```
 
-### 📦 Commits and release
-
-- Use [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-
-### 💅 Code style with Prettier
-
-- Installed and configured prettier
-
-> Recommended [prettier extension](https://github.com/prettier/prettier-vscode)
-
-### 📐 Code linting with esLint
-
-- Installed and configured eslint to work with prettier
-
-> Recommended [esLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-### 🧪 Code tested with Jest
-
-- Installed and configured **jest** to run specs
-- Configured to conform with **eslint**
-- Uses `ts-jest` to work natively with **TypeScript**
-
----
-
-## 🛠 (VS Code .dotfiles)[https://github.com/AlbertoBasalo/dotfiles]
+## 🛠 [VS Code .dotfiles](https://github.com/AlbertoBasalo/dotfiles)
 
 ### ⚙️ Settings
 
@@ -124,9 +100,7 @@ Here you have a recap of the available scripts
 
 - [My eslint.json](https://github.com/AlbertoBasalo/dotfiles/blob/main/eslint.json)
 
-#### ⌨ VS Code Shortcuts
-
-TOP 10
+### ⌨ TOP 10 VS Code Shortcuts
 
 - `F1` :command list
 - `CTRL+P` : file
