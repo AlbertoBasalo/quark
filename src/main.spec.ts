@@ -13,4 +13,9 @@ describe("the sum function", () => {
     const expected = 3;
     expect(actual).toBe(expected);
   });
+  it("should return the second number if the first is 0", () => {
+    const actual = sut(0, 2);
+    const expected = 2;
+    expect(actual).toBe(expected);
+  });
 });

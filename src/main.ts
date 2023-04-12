@@ -11,3 +11,4 @@ function sum(a: number, b: number): number {
 }
 const myName = "Quark";
 sayHello(myName);
+console.log(sum(1, 2));
