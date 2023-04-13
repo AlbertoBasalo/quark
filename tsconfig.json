@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
     "declaration": true,
     "strict": true,
     "importHelpers": true,
@@ -13,7 +13,7 @@
     "sourceMap": true,
     "outDir": "./dist/",
     "types": ["node", "jest"],
-    "lib": ["ES6", "DOM"],
+    "lib": ["es2021", "DOM"],
     "paths": {
       "@ab/*": ["./src/*"]
     }

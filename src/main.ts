@@ -1,7 +1,9 @@
 export { sayHello, sum };
 
-function sayHello(yourName: string): void {
-  console.log(`Hello ${yourName}`);
+function sayHello(yourName: string): string {
+  const helloMessage = `Hello ${yourName}`;
+  console.log(helloMessage);
+  return helloMessage;
 }
 function sum(a: number, b: number): number {
   if (a == 0) {
@@ -9,6 +11,6 @@ function sum(a: number, b: number): number {
   }
   return a + b;
 }
-const myName = "Quark";
+const myName = "Quark!";
 sayHello(myName);
 console.log(sum(1, 2));

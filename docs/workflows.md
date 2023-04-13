@@ -6,7 +6,7 @@ While developing, make sure to install the [recommended extensions](https://gith
 
 #### Testing
 
-Run `npm run test:watch` it will run test after each change. Ideal for TDD or testing _just in time_.
+Run `npm run watch` it will run test after each change. Ideal for TDD or testing _just in time_.
 
 #### Running
 

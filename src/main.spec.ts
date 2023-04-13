@@ -4,6 +4,11 @@ describe("hello", () => {
   it("sayHello function exists", () => {
     expect(sayHello).toBeDefined();
   });
+  it("sayHello should say hello", () => {
+    const actual = sayHello("Quark");
+    const expected = "Hello Quark";
+    expect(actual).toBe(expected);
+  });
 });
 
 describe("the sum function", () => {
