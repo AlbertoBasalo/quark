@@ -2,11 +2,11 @@
 
 ## 👨‍💻 Dev Workflow
 
-While developing, make sure to install the recommended extensions for a better dev experience.
+While developing, make sure to install the [recommended extensions](https://github.com/AlbertoBasalo/dotfiles/blob/main/extensions-i-use.md) for a better dev experience.
 
 #### Testing
 
-Run `npm run test:watch` it will run test after each change. Ideal for TDD or testing just in time.
+Run `npm run test:watch` it will run test after each change. Ideal for TDD or testing _just in time_.
 
 #### Running
 

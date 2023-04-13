@@ -1,5 +1,7 @@
 # 🛠 VS Code settings
 
+I have written a series of articles on how to configure VS Code to write better TypeScript.I also publish my _dotfiles_ (aka configuration files) so you can use them as a starting point.
+
 - [My .Dot Files](https://github.com/AlbertoBasalo/dotfiles)
 
 ## ⚙️ Settings
