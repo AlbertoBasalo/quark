@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/AlbertoBasalo/quark/compare/v2.0.0...v2.1.0) (2023-04-13)
+
+
+### Features
+
+* eslint settings ([f1449f8](https://github.com/AlbertoBasalo/quark/commit/f1449f874519b43c2b73c41ca3e58ca05e0fd129))
+* updated settings ([778b7c4](https://github.com/AlbertoBasalo/quark/commit/778b7c43f587bd6da06517e71e9e81bca9334d29))
+
 ## [2.0.0](https://github.com/AlbertoBasalo/quark/compare/v1.6.9...v2.0.0) (2023-04-12)
 
 
