@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/AlbertoBasalo/quark/compare/v2.1.1...v2.1.2) (2023-04-15)
+
+
+### Bug Fixes
+
+* node module and prettier es lint line ending ([6a1b2cf](https://github.com/AlbertoBasalo/quark/commit/6a1b2cf9f138d11852ff2015fad641c93cfaa765))
+
 ### [2.1.1](https://github.com/AlbertoBasalo/quark/compare/v2.1.0...v2.1.1) (2023-04-13)
 
 ## [2.1.0](https://github.com/AlbertoBasalo/quark/compare/v2.0.0...v2.1.0) (2023-04-13)
