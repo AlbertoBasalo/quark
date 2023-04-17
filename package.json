@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/AlbertoBasalo/quark/issues"
   },
-  "type": "module",
   "scripts": {
     "prestart": "npm run build",
     "start": "node ./dist/main.js",

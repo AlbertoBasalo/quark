@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "Es2021",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "declaration": true,
     "strict": true,
     "importHelpers": true,

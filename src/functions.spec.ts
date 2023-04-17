@@ -1,4 +1,4 @@
-import { sayHello, sum } from "./main";
+import { sayHello, sum } from "./functions";
 
 describe("hello", () => {
   it("sayHello function exists", () => {
