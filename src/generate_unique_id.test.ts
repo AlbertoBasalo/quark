@@ -7,7 +7,8 @@ describe("The generateUniqueId function", () => {
 
   test("returns a hexadecimal string", () => {
     const uniqueId = generateUniqueId();
-    expect(/^[0-9a-f]+$/i.test(uniqueId)).toBe(true);
+    expect(uniqueId).toMatch(/^[0-9a-f]+$/i);
+    // expect(/^[0-9a-f]+$/i.test(uniqueId)).toBe(true);
   });
 
   test("returns a string of length 16", () => {
@@ -17,7 +18,7 @@ describe("The generateUniqueId function", () => {
 
   test("generates unique identifiers", () => {
     const uniqueIds = new Set<string>();
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 10000; i++) {
       const uniqueId = generateUniqueId();
       expect(uniqueIds).not.toContain(uniqueId);
       uniqueIds.add(uniqueId);

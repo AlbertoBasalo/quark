@@ -5,8 +5,7 @@
  * console.log(uniqueId); // Output: e.g., "17a8a241fb"
  * @returns A unique ID string
  */
-
-export function generateUniqueId(): string {
+export function generateRandomId(): string {
   // Get current timestamp in milliseconds
   const timestamp = new Date().getTime();
 
@@ -23,6 +22,24 @@ export function generateUniqueId(): string {
 
   // Concatenate the padded hexadecimal strings
   const uniqueId = paddedTimestampHex + paddedDiscriminatorHex;
+
+  return uniqueId;
+}
+
+let counter = 0;
+
+export function generateUniqueId(): string {
+  // Get current timestamp in milliseconds
+  const timestamp = new Date().getTime();
+
+  // Increment the counter and apply a bit mask to keep it within 8 bits (1 byte)
+  counter = (counter + 1) & 0xff;
+
+  // Combine the timestamp and counter as a 64-bit number
+  const combinedValue = Math.abs((timestamp << 8) | counter);
+
+  // Convert the combined value to a hexadecimal string
+  const uniqueId = combinedValue.toString(16).padStart(16, "0");
 
   return uniqueId;
 }
